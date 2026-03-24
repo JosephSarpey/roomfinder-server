@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt');
-const User = require('../models/User');
+const User = require('../models/User'); 
 
 // Signup controller
 exports.signup = async (req, res) => {
@@ -33,3 +33,5 @@ exports.signup = async (req, res) => {
     res.status(500).json({ message: 'Server error during signup.' });
   }
 };
+
+// testing clone
